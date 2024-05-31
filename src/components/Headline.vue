@@ -7,6 +7,8 @@
             <button>Contact Now</button>
         </div>
         <div class="right_part">
+            <div class="rectangle1"></div>
+            <div class="rectangle2"></div>
             <img src="../assets/headimg.png" alt="">
         </div>
     </div>
@@ -64,16 +66,42 @@
 }
 
 .right_part {
-    max-width: 60%;
-    overflow: hidden;
+    min-width: 817px;
+    height: 100%;
+    overflow: auto;
+    position: relative;
     /* background-color: red; */
 }
 
 .right_part img {
     height: 512px;
-    max-width: 100%;
+    width: 754px;
+    /* min-width: 754px; */
     border-radius: 0px 0px 0px 200px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
     /* margin-left: 64.5px;
     margin-bottom: 89px; */
+}
+
+.rectangle1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 129px;
+    height: 129px;
+    background: #DAE9FF;
+    border-radius: 500px 500px 500px 500px;
+}
+
+.rectangle2{
+    position: absolute;
+    bottom: 0px;
+    right: 120px;
+    width: 178px;
+    height: 178px;
+    background: #FFF5DB;
+    border-radius: 0px 0px 100px 0px;
 }
 </style>

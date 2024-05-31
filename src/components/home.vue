@@ -48,5 +48,7 @@ export default {
     top: 0;
     bottom: 0;
     background-color: #ffffff;
+    /* padding-left: 10%; */
+    /* padding-right: 10%; */
 }
 </style>
