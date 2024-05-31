@@ -14,7 +14,7 @@
                 </div>
                 <div class="block">
                     <img src="../assets/piece2_2.png" alt="">
-                    <div class="block_text1">Financial Planning System</div>
+                          <div class="block_text1">Financial Planning System</div>
                     <div class="block_text2">Protocols apart from aengage models, pricing billing</div>
                 </div>
             </div>
@@ -44,7 +44,7 @@
     height: 867px;
     background-image: url('../assets/piece2_background.png');
     background-size: 100% 100%;
-            background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
 
 .left_part {
