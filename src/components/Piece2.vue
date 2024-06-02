@@ -1,33 +1,33 @@
 <template>
     <div class="piece">
         <div class="left_part">
-            <div class="text1">How can we help your Business ?</div>
-            <div class="text2">We build readymade websites, mobile applications, and elaborate online business services.
+            <div class="text1">特色与优势</div>
+            <div class="text2">我们拥有丰富多样的功能，同时保证了简便易用的操作体验，帮助您轻松掌握知识点，提高学习效率。
             </div>
         </div>
         <div class="right_part">
             <div class="block_row" style="margin-top: 79px;">
                 <div class="block">
                     <img src="../assets/piece2_1.png" alt="">
-                    <div class="block_text1">Business Idea Planning</div>
-                    <div class="block_text2">We present you a proposal and discuss niffty-gritty like</div>
+                    <div class="block_text1">简洁高效</div>
+                    <div class="block_text2">APP设计简洁高效，可以帮助您更快地整理试题和错题，提升学习效率。</div>
                 </div>
                 <div class="block">
                     <img src="../assets/piece2_2.png" alt="">
-                          <div class="block_text1">Financial Planning System</div>
-                    <div class="block_text2">Protocols apart from aengage models, pricing billing</div>
+                          <div class="block_text1">无需付费</div>
+                    <div class="block_text2">APP所有功能均免费使用，无需付费。</div>
                 </div>
             </div>
             <div class="block_row">
                 <div class="block">
                     <img src="../assets/piece2_3.png" alt="">
-                    <div class="block_text1">Development Website and App</div>
-                    <div class="block_text2">Communication protocols apart from engagement models</div>
+                    <div class="block_text1">多平台支持</div>
+                    <div class="block_text2">本APP支持iPadOS、Android、HarmonyOS等多个平台。</div>
                 </div>
                 <div class="block">
                     <img src="../assets/piece2_4.png" alt="">
-                    <div class="block_text1">Market Analysis Project</div>
-                    <div class="block_text2">Protocols apart from aengage models, pricing billing</div>
+                    <div class="block_text1">隐私保护</div>
+                    <div class="block_text2">所有数据处理都在本地进行，不会与云端产生交互，保证了用户隐私安全。</div>
                 </div>
             </div>
         </div>

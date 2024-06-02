@@ -1,13 +1,13 @@
 <template>
     <div class="bar">
-        <div class="name">A Studio</div>
+        <div class="name">试卷簿</div>
         <div class="label">
-            <div>Home</div>
-            <div>What We Do</div>
-            <div>Service</div>
-            <div>Project</div>
-            <div>Blog</div>
-            <div>Contact</div>
+            <div>首页</div>
+            <div>支持平台</div>
+            <div>特色与优势</div>
+            <div>APP演示</div>
+            <div>团队介绍</div>
+            <div>联系方式</div>
         </div>
     </div>
 </template>

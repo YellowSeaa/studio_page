@@ -1,14 +1,14 @@
 <template>
     <div class="piece">
         <div class="left_part">
-            <div class="text1">Our Client</div>
-            <div class="text2">Several selected clients, who already believe in our service.</div>
+            <div class="text1">支持平台</div>
+            <div class="text2">试卷簿app是一个多平台学习工具，支持iPadOS、Android、HarmonyOS等平台。</div>
         </div>
         <div class="right_part">
-            <img src="../assets/piece1_1.png" alt="">
-            <img src="../assets/piece1_2.png" alt="">
-            <img src="../assets/piece1_3.png" alt="">
-            <img src="../assets/piece1_4.png" alt="">
+            <img src="../assets/iOS.png" alt="">
+            <img src="../assets/Android.png" alt="">
+            <img src="../assets/HarmonyOS.png" alt="">
+            <img src="../assets/Windows.png" alt="">
         </div>
     </div>
 </template>
@@ -55,6 +55,6 @@
 
 .right_part img{
     height: 50px;
-    margin-right: 59px;
+    margin-right: 30px;
 }
 </style>

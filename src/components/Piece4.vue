@@ -1,8 +1,8 @@
 <template>
     <div class="piece">
         <div class="top_part">
-            <div class="top_text1">What our happy client say</div>
-            <div class="top_2text2">Several selected clients, who already believe in our service.</div>
+            <div class="top_text1">团队成员介绍</div>
+            <div class="top_2text2">试卷簿团队是一个致力于“智能高效，落实实际”的创业团队。</div>
         </div>
         <div class="bottom_part">
             <div class="bottom_1">

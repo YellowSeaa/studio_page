@@ -1,15 +1,14 @@
 <template>
     <div class="headline">
         <div class="left_part">
-            <div class="text1">A Digital Product Agency</div>
-            <div class="text2">Leading digital agency with solid design and development expertise. We build readymade
-                websites, mobile applications, and elaborate online business services.</div>
-            <button>Contact Now</button>
+            <div class="text1">一个专注高效的学习帮手</div>
+            <div class="text2">试卷簿APP，针对平板无纸化学习中的试题练习与整理，为用户提供一个优雅、高效且易于使用的学习软件，填补学生无纸化学习中的需求</div>
+            <button>立即下载</button>
         </div>
         <div class="right_part">
             <div class="rectangle1"></div>
             <div class="rectangle2"></div>
-            <img src="../assets/headimg.png" alt="">
+            <img src="../assets/headimg1.png" alt="">
         </div>
     </div>
 </template>
@@ -77,7 +76,7 @@
     height: 512px;
     width: 754px;
     /* min-width: 754px; */
-    border-radius: 0px 0px 0px 200px;
+    /* border-radius: 0px 0px 0px 200px; */
     position: absolute;
     top: 0px;
     right: 0px;

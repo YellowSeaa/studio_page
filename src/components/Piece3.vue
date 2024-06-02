@@ -11,10 +11,8 @@
       />
         </div>
         <div class="right_part">
-            <div class="text1">Great Digital Product Agency since 2016 </div>
-            <div class="text2">Our Business Plan is a written document describing a company's core business activites,
-                Objectives, and how it plans to achieve its goals. Our goal is to provide our client high quality
-                Product with modern idea accordingly their budgets and according thir reuirements.</div>
+            <div class="text1">APP演示视频</div>
+            <div class="text2">在左侧的视频中，我们将详细向您展示软件的试卷整理、精选题目、习题编写以及错题整理等功能。通过观看此视频，您将全面了解本APP构建的一套高效试题练习整理流程，为您的学习提供强有力的支持。</div>
         </div>
     </div>
 </template>
