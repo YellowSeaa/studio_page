@@ -5,22 +5,6 @@
             <div class="top_2text2">试卷簿团队是一个致力于“智能高效，落实实际”的创业团队。</div>
         </div>
         <div class="bottom_part">
-            <!-- <div class="bottom_1">
-                <img src="../assets/piece4.png" alt="">
-            </div> -->
-            <!-- <div class="bottom_2"> -->
-            <!-- <div class="bottom_text1">Matthew Paul</div>
-                <div class="bottom_text2">Perfect, very good job! Thank you for the amazing design and work. Really
-                    impressed with the high quality and quick turnaround time. Highly recommend.</div>
-                <div class="select">
-                    <div class="option" style="background: #2639ED;"></div>
-                    <div class="option"></div>
-                    <div class="option"></div>
-                    <div class="option"></div>
-                    <div class="option"></div>
-                    <div class="option"></div>
-                </div> -->
-            <!-- <div class="team-introduction"> -->
             <div class="member-info" v-if="selectedMember">
                 <img :src="selectedMember.avatar" alt="Member Avatar" class="bottom_1" />
                 <div class="bottom_2">
@@ -34,9 +18,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- </div> -->
-            <!-- </div> -->
             <div class="bottom_3">
                 <img src="../assets/people/hjh.jpg" alt="" class="img120">
                 <img src="../assets/people/zwj.jpg" alt="" class="img98" style="left: 0px;top: 58px;">
@@ -127,7 +108,7 @@ export default {
 }
 
 .top_text1 {
-    font-family: AvertaDemoPECuttedDemo;
+    font-family: '黑体';
     font-size: 40px;
     font-weight: normal;
     line-height: 56px;

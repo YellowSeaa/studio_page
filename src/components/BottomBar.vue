@@ -1,13 +1,12 @@
 <template>
     <div class="bottombar">
         <div class="left_part">
-            <div class="left_text1">A+ Studio</div>
-            <div class="left_text2">Leading digital agency with solid design and development expertise. We build
-                readymade websites, mobile applications, and elaborate online business services.</div>
+            <div class="left_text1">试卷簿</div>
+            <div class="left_text2">试卷簿APP，针对平板无纸化学习中的试题练习与整理，为用户提供一个优雅、高效且易于使用的学习软件，填补学生无纸化学习中的需求</div>
             <div class="left_bottom">
-                <img src="../assets/piece4.png" alt="">
-                <img src="../assets/piece4.png" alt="">
-                <img src="../assets/piece4.png" alt="">
+                <img src="../assets/github-fill.png" alt="" @click="goURL('https://www.cnblogs.com/yellowsea/')">
+                <img src="../assets/cnblogs-grey.png" alt="" @click="goURL('https://www.cnblogs.com/yellowsea/')">
+                <img src="../assets/twitter.png" alt="" @click="goURL('https://www.cnblogs.com/yellowsea/')">
             </div>
         </div>
         <div class="right_part">
@@ -17,7 +16,8 @@
                     <div class="itme_text">Web Design
                         <br>App Design
                         <br>Social Media Manage
-                        <br>Market Analysis Project</div>
+                        <br>Market Analysis Project
+                    </div>
                 </div>
             </div>
             <div class="block">
@@ -25,7 +25,8 @@
                 <div class="block_items">
                     <div class="itme_text">About Us
                         <br>Career
-                        <br>Become Investor</div>
+                        <br>Become Investor
+                    </div>
                 </div>
             </div>
             <div class="block">
@@ -33,19 +34,31 @@
                 <div class="block_items">
                     <div class="itme_text">FAQ
                         <br>Policy
-                        <br>Business</div>
+                        <br>Business
+                    </div>
                 </div>
             </div>
             <div class="block">
                 <div class="block_title">Contact</div>
                 <div class="block_items">
                     <div class="itme_text">WhatsApp
-                        <br>Support 24</div>
+                        <br>Support 24
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </template>
+
+<script>
+export default {
+    methods: {
+        goURL(url) {
+            window.open(url, '_blank')
+        }
+    }
+}
+</script>
 
 <style scoped>
 .bottombar {
@@ -65,7 +78,7 @@
 }
 
 .left_text1 {
-    font-family: ProximaNova;
+    font-family: '黑体';
     font-size: 24px;
     font-weight: normal;
     line-height: 34px;
@@ -132,7 +145,7 @@
     color: #000000;
 }
 
-.block_items{
+.block_items {
     margin-top: 24px;
 }
 </style>

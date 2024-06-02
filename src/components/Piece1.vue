@@ -30,7 +30,7 @@
 }
 
 .text1 {
-    font-family: AvertaDemoPECuttedDemo;
+    font-family: '黑体';
     font-size: 40px;
     font-weight: normal;
     line-height: 56px;

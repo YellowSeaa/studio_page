@@ -4,20 +4,36 @@
             <div class="rectangle"></div>
             <div class="main">
                 <div class="left_part">
-                    <div class="text1">Subscribe Newsletter</div>
-                    <div class="text2">I will update good news and promotion service not spam</div>
+                    <div class="text1">订阅我们</div>
+                    <div class="text2">我们会在发布新版本的第一时间，以邮件方式告诉你。</div>
                 </div>
                 <div class="right_part">
                     <div class="back"></div>
                     <div class="input">
                         <input type="text" placeholder="Enter your email address..">
-                        <button>Contact Now</button>
+                        <button @click="submit">提交</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </template>
+
+<script>
+import { h } from 'vue'
+import { ElMessage } from 'element-plus'
+
+export default {
+    methods: {
+        submit() {
+            ElMessage({
+                message: '提交成功',
+                type: 'success',
+            })
+        }
+    }
+}
+</script>
 
 <style scoped>
 .piece {
@@ -65,7 +81,7 @@
 }
 
 .text1 {
-    font-family: AvertaDemoPECuttedDemo;
+    font-family: '黑体';
     font-size: 40px;
     font-weight: normal;
     line-height: 56px;

@@ -1,7 +1,8 @@
 <template>
     <div class="main-page">
-        <TopBar />
-        <Headline />
+        <!-- 此处加个class和style -->
+        <TopBar class="fixed-top" />
+        <Headline style="margin-top: 116px;"/>
         <Piece1 />
         <Piece2 />
         <Piece3 />
@@ -48,7 +49,21 @@ export default {
     top: 0;
     bottom: 0;
     background-color: #ffffff;
-    /* padding-left: 10%; */
-    /* padding-right: 10%; */
+    max-width: 1440px;
+    /* 设置最大宽度 */
+    margin-left: auto;
+    /* 左侧自动填充 */
+    margin-right: auto;
+    /* 右侧自动填充 */
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* 可以根据需要设置宽度 */
+  z-index: 999; 
+  background-color: white; /* 可以根据需要设置背景颜色 */
+  /* 其他样式属性 */
 }
 </style>

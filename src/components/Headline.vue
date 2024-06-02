@@ -3,7 +3,7 @@
         <div class="left_part">
             <div class="text1">一个专注高效的学习帮手</div>
             <div class="text2">试卷簿APP，针对平板无纸化学习中的试题练习与整理，为用户提供一个优雅、高效且易于使用的学习软件，填补学生无纸化学习中的需求</div>
-            <button>立即下载</button>
+            <button @click="download">立即下载</button>
         </div>
         <div class="right_part">
             <div class="rectangle1"></div>
@@ -12,6 +12,22 @@
         </div>
     </div>
 </template>
+
+<script>
+import { h } from 'vue'
+import { ElMessage } from 'element-plus'
+
+export default {
+    methods: {
+        download() {
+            ElMessage({
+                message: '敬请期待',
+                type: 'success',
+            })
+        }
+    }
+}
+</script>
 
 <style scoped>
 .headline {
@@ -34,7 +50,7 @@
 }
 
 .text1 {
-    font-family: AvertaDemoPECuttedDemo;
+    font-family: '黑体';
     font-size: 40px;
 }
 
@@ -84,7 +100,7 @@
     margin-bottom: 89px; */
 }
 
-.rectangle1{
+.rectangle1 {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -94,7 +110,7 @@
     border-radius: 500px 500px 500px 500px;
 }
 
-.rectangle2{
+.rectangle2 {
     position: absolute;
     bottom: 0px;
     right: 120px;
