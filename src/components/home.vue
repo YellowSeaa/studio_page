@@ -33,7 +33,7 @@ export default {
         Piece4,
         Piece5,
         BottomBar
-    }
+    },
 };
 </script>
 

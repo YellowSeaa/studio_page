@@ -20,6 +20,11 @@ export default {
       // 在这里可以执行你想要的函数逻辑
       document.documentElement.scrollTop = where;
     }
+  },
+  mounted() {
+    // 强制滚动到顶部
+    document.documentElement.scrollTop = 0;
+    console.log('111');
   }
 }
 </script>
